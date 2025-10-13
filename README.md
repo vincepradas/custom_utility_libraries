@@ -1,4 +1,4 @@
-echo "# Backend Utilities Library
+# Backend Utilities Library
 
 A lightweight Node.js library to simplify common backend tasks like logging, API responses, and error handling.
 
@@ -60,4 +60,5 @@ A lightweight Node.js library to simplify common backend tasks like logging, API
 import { apiResponse, logger, handleError } from 'backend-utils';
 
 const response = apiResponse.success({ message: 'Hello world' });
+
 logger.info('API called', { correlationId: '1234' }); "  >> README.md
