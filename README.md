@@ -53,12 +53,3 @@ A lightweight Node.js library to simplify common backend tasks like logging, API
 - [ ] Add badges (build, npm version) to README
 
 ---
-
-## Usage Example
-
-```ts
-import { apiResponse, logger, handleError } from 'backend-utils';
-
-const response = apiResponse.success({ message: 'Hello world' });
-
-logger.info('API called', { correlationId: '1234' }); "  >> README.md
