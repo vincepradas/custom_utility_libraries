@@ -1,5 +1,8 @@
 {
-  "name": "vinxwarren",
+  "name": "@vincepradas/backend-utils",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "version": "0.0.1",
   "description": "A lightweight Node.js library to simplify common backend tasks like logging, API responses, and error handling.",
   "main": "dist/index.js",
