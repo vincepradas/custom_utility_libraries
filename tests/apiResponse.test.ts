@@ -6,6 +6,7 @@ const fetchData = async (url: string, id?: string): Promise<any> => {
     const response = id 
       ? await axios.get(`${url}?id=${id}`)
       : await axios.get(url);
+      console.log(response.data)
     return response.data;
   } catch (error) {
     console.error(error);

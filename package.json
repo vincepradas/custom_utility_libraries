@@ -1,11 +1,17 @@
 {
-  "name": "custom_backend_utility_library",
+  "name": "vinxwarren",
   "version": "0.0.1",
   "description": "A lightweight Node.js library to simplify common backend tasks like logging, API responses, and error handling.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "npx jest",
-    "start": "npx ts-node src/index"
+    "start": "npx ts-node src/index",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
