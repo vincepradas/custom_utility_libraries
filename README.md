@@ -21,7 +21,7 @@ A lightweight Node.js library to simplify common backend tasks like logging, API
 - [x] Create folder structure (`src`, `tests`, `dist`)
 
 ### 2. Standardized API Responses
-- [ ] Create function to wrap responses: `{ success: boolean, data: any, error?: string }`
+- [x] Create function to wrap responses: `{ success: boolean, data: any, error?: string }`
 - [ ] Include optional pagination info
 - [ ] Type definitions for TypeScript
 
