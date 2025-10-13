@@ -15,10 +15,10 @@ A lightweight Node.js library to simplify common backend tasks like logging, API
 ## Tasks / TODO
 
 ### 1. Project Setup
-- [ ] Initialize npm package (`npm init`)
-- [ ] Setup TypeScript (`tsconfig.json`)
-- [ ] Setup ESLint & Prettier for code formatting
-- [ ] Create folder structure (`src`, `tests`, `dist`)
+- [x] Initialize npm package (`npm init`)
+- [x] Setup TypeScript (`tsconfig.json`)
+- [x] Setup ESLint & Prettier for code formatting
+- [x] Create folder structure (`src`, `tests`, `dist`)
 
 ### 2. Standardized API Responses
 - [ ] Create function to wrap responses: `{ success: boolean, data: any, error?: string }`
