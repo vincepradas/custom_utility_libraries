@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A lightweight Node.js library to simplify common backend tasks like logging, API responses, and error handling.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
