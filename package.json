@@ -1,7 +1,7 @@
 {
-  "name": "@vincepradas/backend-utils",
+  "name": "vincepradas-backend-utils",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "version": "0.0.2",
   "description": "A lightweight Node.js library to simplify common backend tasks like logging, API responses, and error handling.",
